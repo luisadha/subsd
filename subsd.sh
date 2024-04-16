@@ -1,4 +1,3 @@
-# subsd
 #!/system/bin/mksh
 # 
 # subsd v0.03
@@ -6,7 +5,7 @@
 # Created with shell (mksh) for Terminal Emulator purpose or Termux
 # Copyright (C) 2024 <adharudin14@gmail.com>
 
-#Tested on: j2lte (j2ltedd)
+#Tested on: j2lte (j2ltedd), fog(redmi10c)
 
 BL='\e[01;90m' > /dev/null 2>&1; # Black
 R='\e[01;91m' > /dev/null 2>&1; # Red
