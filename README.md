@@ -25,4 +25,12 @@ c. Target
 
 - All android devices
 
+# How to resolve known issue at ztmexluis
+
+a. HISTSIZE BAD NUMBER
+type ```sh unset HISTSIZE```
+
+b. REQUIRED FILE NOT FOUND
+type ```sh termux-fix-shebang subsd.sh```
+
   
