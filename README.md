@@ -17,7 +17,7 @@ a. Platform
 - Term OnePlus
 
 b. Device
-
+- j1minilte
 - j2ltedd (Samsung J2 / SM-J200G)
 - fog (REDMI 10C)
 
