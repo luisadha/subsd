@@ -1,6 +1,6 @@
 #!/system/bin/mksh
 # 
-# subsd v0.03
+# subsd v0.04 (8-Feb-2025)
 # Simple program to view subfolder under /sdcard
 # Created with shell (mksh) for Terminal Emulator purpose or Termux
 # Copyright (C) 2024 <adharudin14@gmail.com>
@@ -40,7 +40,7 @@ read dir
     case "$count" in
         *)
              cd "$i" 2>/dev/null
-              [[ -e "$i" ]] && failed && continue || succes
+              [[ -d "$i" ]] && failed && continue || succes
           echo;
           set ./* ./[!.]* ./..?*
           if [ -n "$4" ] ||
